@@ -46,4 +46,12 @@ class SerialGenerator:
 
 
 
-se
+serial = SerialGenerator(start=100)
+
+print(serial.generate())
+print(serial.generate())
+print(serial.generate())
+
+serial.reset()
+
+print(serial.generate())
